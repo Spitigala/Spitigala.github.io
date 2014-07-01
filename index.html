@@ -1,8 +1,289 @@
-<!DOCTYPE HTML>
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A layout example that shows off a responsive product landing page.">
 
-<html>
+    <title>Sahan Pitigala - Web Developer</title>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <script type="text/javascript" src="javascript/scroll.js"></script>
+
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+
+
+
+<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/pure-min.css">
+
+
+
+<!--[if lte IE 8]>
+  
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-old-ie-min.css">
+  
+<![endif]-->
+<!--[if gt IE 8]><!-->
+  
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.5.0/grids-responsive-min.css">
+  
+<!--<![endif]-->
+
+
+
+  
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/style-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+
+        <link rel="stylesheet" href="css/style.css">
+
+    <!--<![endif]-->
+  
+
+
+
+<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+ 
+
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+
+
+
+
+<div class="header">
+    <div class="home-menu pure-menu pure-menu-open pure-menu-horizontal pure-menu-fixed">
+        <a class="pure-menu-heading" href="#slide1">Sahan Pitigala</a>
+        <ul>
+            <li><a href="#slide2" title="About Me">About Me</a></li>
+            <li><a href="#slide3" title="Skills">Skills</a></li>
+            <li><a href="#slide4" title="Portfolio">Portfolio</a></li>
+            <li><a href="#slide5" title="Props">Props</a></li>
+            <li><a href="#slide6" title="Contact Me">Contact Me</a></li>
+       </ul>
+    </div>
+</div>
+
+<div class="splash-container" id="slide1">
+    <div>
+        <p id="hi">HI</p>
+        <p id="name">I'M SAHAN</p>
+        <p id="title">I'M A WEB DEVELOPER...AND THEN SOME.</p>
+        <p id="photo-cred">Photo By Steven Oates</p>
+    </div>
+    <div class="splash">
+        <p>
+            <a href="#slide2" class="pure-button pure-button-primary">More About Me <i class="fa fa-arrow-circle-down"></i></a>
+        </p>
+    </div>
+</div>
+
+<div class="content-wrapper" id="slide2">
+
+    <!-- ABOUT ME -->
+    <div class="content">
+        <h2 class="content-head is-center">About Me</h2>
+        <img class="pure-img-responsive circle" width="400" height="300" src="img/selfie.png">
+
+        <div class="pure-g">
+            <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-1">
+                <section class="about-me">
+                <p>Hello! My name is sahan Pitigala and I'm a web developer. I strive to create reliable and functional applications through concise, modular and well-tested code. I also like to:</p>
+                    <ul>
+                        <li>Solve problems</li>
+                        <li>Teach others and help them arrive at solutions</li>
+                        <li>Make videos</li>
+                        <li>Cook breakfast</li>
+                        <li>Build beautiful and meaningful things</li>
+                    </ul>
+                <p>Whether you have a job opportunity for me, want to pair up on a coding challenge, or simply want to chat about similar interests, I would love to hear from you.</p>
+            </section>
+            </div>
+        </div>
+        <div id="nav-bt">
+            <a href="#slide3" class="pure-button pure-button-primary">My Skills <i class="fa fa-arrow-circle-down"></i></a>
+        </div>
+    </div>
+
+
+    <div class="content" id="slide3">
+        <!-- SKILLS -->
+        <div class="content">
+            <h2 class="content-head is-center">Skills and Competencies</h2>
+            <div class="pure-g">
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+                    <h3 class="content-subhead">
+                        <i class="fa fa-code"></i>
+                        Languages &amp; Frameworks
+                    </h3>
+                    <ul>
+                        <li>Ruby, Rails, Sinatra</li>
+                        <li>Javascript, JQuery</li>
+                        <li>HTML, CSS</li>
+                    </ul>
+                </div>
+
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+                    <h3 class="content-subhead">
+                        <i class="fa fa-database"></i>
+                        DB, Testing &amp; Version Control
+                    </h3>
+                    <ul>
+                        <li>PostgreSQL, MYSQL, Active Record</li>
+                        <li>RSpec, Capybara, Jasmine</li>
+                        <li>Git, Github</li>
+                    </ul>
+                </div>
+
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+                    <h3 class="content-subhead">
+                        <i class="fa fa-flask"></i>
+                        Methodologies
+                    </h3>
+                        <ul>
+                            <li>Object Oriented Design</li>
+                            <li>Test Driven Development</li>
+                            <li>Agile Development</li>
+                        </ul>
+                </div>
+
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+                    <h3 class="content-subhead">
+                        <i class="fa fa-users"></i>
+                        Soft Skills
+                    </h3>
+                    <ul>
+                        <li>Engineering Empathy</li>
+                        <li>Pair Programming</li>
+                        <li>Team Leadership</li>
+                    </ul>    
+                </div>
+
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+                    <h3 class="content-subhead">
+                        <i class="fa fa-desktop"></i>
+                        Other Software
+                    </h3>
+                    <ul>
+                        <li>AfterEffects</li>
+                        <li>Photoshop</li>
+                        <li>InDesign</li>
+                        <li>Final Cut Pro</li>
+                        <li>Sony Vegas</li>
+                    </ul>   
+                </div>
+
+                <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-3">
+                    <h3 class="content-subhead">
+                        <i class="fa fa-rocket"></i>
+                        Additional Skills
+                    </h3>
+                    <ul>
+                        <li>Marketing</li>
+                        <li>Customer Service</li>
+                        <li>Business Development</li>
+                        <li>Event Planning</li>
+                        <li>Research</li>
+                    </ul>   
+                </div>
+
+            </div>
+
+            <div id="nav-bt">
+                <a href="#" class="pure-button pure-button-primary">View Resume <i class="fa fa-external-link-square"></i></a>
+                <a href="#slide4" class="pure-button pure-button-primary">View Portfolio <i class="fa fa-arrow-circle-down"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="ribbon l-box-lrg pure-g" id="slide4"> 
+
+        <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-1">
+            <h2 class="content-head is-center">Portfolio</h2>
+        </div>
+
+        <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5 tab" id="tab1">
+            <a href="http://smartsos.herokuapp.com/"><img class="pure-img-responsive portfolio" alt="File Icons" width="400" height="300" src="img/smartsos.png"></a>
+        </div>
+
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+            <h2 class="content-head content-head-ribbon">SmartSOS</h2>
+            <p class="role">Roles: Team Lead, Development</p>
+            <p>The idea for SmartSOS was born from my experience as a volunteer after
+                Hurricane Sandy. It connects local organizations and communities
+                to get supplies to where they are needed most. Along with a team of 4 other Dev Bootcamp students, we built out the application's basic functionality and integrated the amazon API. 
+                This project is in progress.</p>
+        </div>
+
+        <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5 tab" id="tab2">
+            <a href="http://www.cardboardclass.com"><img class="pure-img-responsive portfolio" alt="File Icons" width="400" height="300" src="img/cbclass.png"></a>
+        </div>
+
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+            <h2 class="content-head content-head-ribbon">CardboardClass</h2>
+            <p class="role">Roles: Planning, Design, Community Outreach</p>
+            <p>
+                I started Cardboard Class after seeing a need for affordable classroom space. It was featured and promoted by 
+                <a href="http://www.skillshare.com">Skillshare</a> as a resource for their growing base of teachers. The site is based on wordpress template.
+            </p>
+        </div>
+
+
+        <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5 tab" id="tab1">
+            <iframe class="portfolio" src="http://player.vimeo.com/video/99481775" width="400" height="300" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+        </div>
+
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+            <h2 class="content-head content-head-ribbon">9/11 Tribute Video</h2>
+            <p class="role">Roles: Production, Editing</p>
+            <p>September 11th tribute video created using an after efects template from Videohive 
+                and an audio track from Audio Jungle.</p>
+        </div>
+
+        <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5 tab" id="tab1">
+            <iframe class="portfolio" src="http://player.vimeo.com/video/99482181" width="400" height="300" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+        </div>
+
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+            <h2 class="content-head content-head-ribbon">Sigma Beta Rho National Rush Video</h2>
+            <p class="role">Roles: Production, Editing</p>
+            <p>A promotional video for Sigma Beta Rho created using stock clips along with video editing
+              software After Effects and Sony Vegas.</p>
+        </div>
+
+        <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5 tab" id="tab1">
+            <iframe class="portfolio" src="http://www.youtube.com/embed/mo5NRjGqOmI" width="400" height="300" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> 
+        </div>
+
+        <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+            <h2 class="content-head content-head-ribbon">Diwali at Times Square Commercial</h2>
+            <p class="role">Roles: Production, Editing</p>
+            <p>Created a 30 second commercial for an event at Times Square using After Effects templates and Final Cut Pro. The commercial was also played on Air India flights.</p>
+        </div>
+
+    </div>
+
+
+
+    <div class="ribbon l-box-lrg pure-g" id="slide5"> 
+
+        <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-1">
+            <h2 class="content-head is-center">Portfolio</h2>
+        </div>
+
+    </div>
+
+
+
+    <div class="footer l-box is-center">
+        Sahan Pitigala - 2014
+    </div>
+
+</div>
+
 </body>
 </html>
