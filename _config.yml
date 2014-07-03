@@ -1,0 +1,12 @@
+# Site settings
+title: Sahan Pitigala
+email: sahan.pitigala@gmail.com
+description: "I'm Sahan. I'm a web developer, and much more."
+baseurl: ""
+url: "spitigala.github.io"
+twitter_username: sahanp
+github_username:  Spitigala
+
+# Build settings
+markdown: kramdown
+permalink: pretty
