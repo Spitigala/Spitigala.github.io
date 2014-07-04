@@ -190,7 +190,7 @@ a.pure-button-primary {
     line-height: 1em;
     background: white;
     float: right;
-    margin-top: 350px;
+    margin-top: 250px;
     width: 135px;
 }
 .splash-subhead {
@@ -306,17 +306,19 @@ a.pure-button-primary {
 }
 
 #slide4 p {
-    font-family: "Raleway";
     color: black;
 }
 
+#slide5 {
+    background-color: #ECF0F1;
+}
 
 .role {
     font-family: "Raleway";
 }
 
 .portfolio {
-    border: 5px solid gray;
+    border: 5px solid #34495E;
 }
 
 #nav-bt {
@@ -372,10 +374,27 @@ a.pure-button-primary {
   box-shadow: 0 3px 2px rgba(0, 0, 0, 0.3);  
 }
 
-/*.testimonial img {
-    float: left;
+.endorsement-right{
+    background-color: #22A7F0;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    padding: 25px;
+    box-shadow: 10px 10px 5px #888888;
 }
 
-.testimonial p {
-    float: right;
-}*/
+.endorsement-right a {
+    color: white;
+}
+
+.endorsement-left {
+
+    background-color: #22313F;
+    color: white;
+    font-family: 'PT Sans', sans-serif;
+    padding: 25px;
+    box-shadow: -10px 10px 5px #888888;
+}
+
+.endorsement-pic {
+    border: 5px solid white;
+}
