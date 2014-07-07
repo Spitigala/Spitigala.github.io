@@ -58,7 +58,7 @@ The "active" class will be used to show which cell the player is on as they adva
 Let's create a file called initialize.js to kick off our javascript. Inside this file, let's tell our browser to do something when all the elements are loaded. We're simply going to call ONE function named prepareGame() that's going to tell our game to prepare itself to be played.
 
 {% highlight javascript %}
-	$(document).ready(function() {
+$(document).ready(function() {
     prepareGame();
 });
 {% endhighlight %}
@@ -160,7 +160,7 @@ Within the startGame() function, let's add 2 variables that will keep track of o
 
 {% highlight javascript %}
 
-	var player1_position = player1.position;
+var player1_position = player1.position;
 var player2_position = player2.position;
 
 {% endhighlight %}
