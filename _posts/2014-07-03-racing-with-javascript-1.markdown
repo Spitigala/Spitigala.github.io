@@ -71,7 +71,7 @@ The previous function prepareGame() doesn't do anything by itself. Let's create 
 {% highlight javascript %}
 
 function prepareGame() {
-    var cellCount = 20;
+    var cell_count = 20;
     var board = new drawBoard(cell_count);
     var player1 = new Player('Player1');
     var player2 = new Player('Player2');
