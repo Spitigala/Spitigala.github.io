@@ -319,6 +319,24 @@ a.pure-button-primary {
 
 .portfolio {
     border: 5px solid #34495E;
+    width: 400px;
+    margin-top: 20px;
+
+}
+
+.port-description {
+    font-size: .75em;
+}
+
+.video {
+    border: 5px solid #34495E;
+    width: 100%;
+
+}
+
+
+.desc {
+    float: bottom;
 }
 
 #nav-bt {
