@@ -1,12 +1,12 @@
 ---
 layout: post
-title:  "Database Deilemmas: A refelction on my final project at Dev Bootcamp"
+title:  "Database Dilemmas: A reflection on my final project at Dev Bootcamp"
 date:   2014-08-06
 categories: dbc devbootcamp coding
 ---
 
 
-Designing database schemas can tricky, and as a relatively new developer, I’m bound to run in to my fair share of troubles with it. But the last thing I need is a schema design flaw 3 days before final presentations at Dev Bootcamp.
+Designing database schemas can tricky, and as a relatively new developer, I’m bound to run in to my fair share of troubles with it. But the last thing I need is a schema design flaw 3 days before final presentations at [Dev Bootcamp][devbootcamp].
 
 Since the universe works in mysterious ways to teach us life lessons, that’s exactly what happened to my team. Our final project was to build [smartSOS][smartsos], a platform that connects non-profits and donors. The basic idea is that non-profits can create a listing of items they need, and donors can respond accordingly by dropping off items they already have or buy them through Amazon and ship the items directly to the organization. You can checkout the code base [here][sourcecode].
 
@@ -31,10 +31,14 @@ Out here in these parts of town, we call it spaghetti.
 
 We initially failed to see the bigger problem, although we felt something was off as our controllers were being built. We had to traverse lengthy paths to get to our data, but were unable to pinpoint the exact problem. The team was too deep in to the code to think of making any fundamental changes. In fact, we were already excited about adding new features.
 
-Three days in to the project, we were called in for a consultation with our instructors [Steven][steventwitter] and [Nikola][nikolatwitter]. Their feedback was not what we wanted to hear. They expressed deep concern about our database design and recommended that we rethink our approach. But at that point it seemed as if we were too far in to the development process, and we still had a lot of work left to do. In our minds, a database redesign seemed too daunting, and as team lead I decided against it due to time constraints. I had never managed a technical project before. I didn’t know about the technical debt our mistake would bring, or the cost-benefit of doing a redesign. All I could think about was having a cool product to deliver on demo day to impress employers and the DBC community. I respected Steven’s input, but in the end decided to continue with our current iteration, which would turn out to be one of my biggest mistakes as a developer and a leader.
+Three days in to the project, we were called in for a consultation with our instructors [Steven][steventwitter] and [Nikola][nikolatwitter]. Their feedback was not what we wanted to hear. They expressed deep concern about our database design and recommended that we rethink our approach. But at that point it seemed as if we were too far in to the development process, and we still had a lot of work left to do. In our minds, a database redesign seemed too daunting, and as team lead I decided against it due to time constraints. I had never managed a technical project of this scale. I didn’t know about the technical debt our mistake would bring, or the cost-benefit of doing a redesign. All I could think about was having a cool product to deliver on demo day to impress employers and the DBC community. I respected Steven’s input, but in the end decided to continue with our current iteration, which would turn out to be one of my biggest mistakes as a developer and a leader.
 
 The following day, we were called in for a second meeting. 
-This time around, our instructors’ attitude towards us had taken on a more serious tone. Basically, Steven tore us all apart. He said that it looked like we had “put the engine in backwards” and that none of it made sense to him. He suggested that rather than going back to fix what’s broken, we should rebuild the app from scratch, and that he knows we can get it done in time for demo day. This time he had my attention, and his confidence won me over.
+
+This time around, our instructors’ attitude towards us had taken on a more serious tone. Basically, Steven tore us all apart. 
+
+He said that it looked like we had “put the engine in backwards” and that none of it made sense to him. He suggested that rather than going back to fix what’s broken, we should rebuild the app from scratch, and that he knows we can get it done in time for demo day. This time he had my attention, and his confidence won me over.
+
 When a programming veteran tells you that you screwed up, that you should change something, that he believes you can deliver on time, and does so with a straight face, you can bet anything that he means every word coming out of his mouth. So with just 3 days left to rebuild our app, we walked over to our terminal and hit RAILS NEW. 
 
 It was scary. But in a weird way, it was exciting. My team was up for the challenge.
@@ -58,7 +62,7 @@ And here they are in version 2:
 What’s more? In just one day, we were able to catch up to the exact point we had been at before we decided to go for the redesign. That’s 4 days of work packed in to a single day, and worth every effort by our awesome team.
 So what lessons did I learn?
 
-**Get feedback early and often.** We failed to run our database design through our instructors because we believed we had it right he whole time. Had we taken the time to consult them earlier in the process, we would have avoided our costly mistake.
+**Get feedback early and often.** We failed to run our database design through our instructors because we believed we had it right the whole time. Had we taken the time to consult them earlier in the process, we would have avoided our costly mistake.
 
 **Listen to what others have to say, and give reasonable consideration to their feedback.** I’m not saying blindly follow someone’s advice because they’re more experienced. But rather, take the time to understand the logic behind their reasoning no matter how absurd it may sound at first. It certainly sounded crazy when our instructors initially asked us to change our approach. 
 
@@ -73,3 +77,4 @@ Spring peepers out. *Peep peep!*
 [sourcecode]: https://github.com/Spitigala/smartSOS-2.0
 [steventwitter]: https://twitter.com/sgharms
 [nikolatwitter]: https://twitter.com/JaNisamTesla
+[devbootcamp]: http://devbootcamp.com
