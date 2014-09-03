@@ -68,7 +68,7 @@ So what lessons did I learn?
 
 **Don’t be afraid to throw out code.** It’s easy to become attached to your code. After all, you worked so hard on it. But like in any relationship, you have to learn when to let go. Now go make a rom com out of that!
 
-**Your final project is not about how cool your idea is.** It’s about your Engineering skills and how well you manage complexity. It’s about how you work as a team and perform under pressure of time constraints. It’s perfectly ok if your app isn’t full of every feature you wanted. It’s an MVP. Focus on making a few features work extremely well. But most importantly, make sure that you’re learning and improving your skills until the very end. It’s not a competition, even though it may feel like one at times. The real winner is the one who learns the most during the process.
+**Your final project is not about how cool your idea is.** It’s about your Engineering skills and how well you manage complexity. It’s about how you work as a team and perform under pressure of time constraints. It’s perfectly ok if your app isn’t full of every feature you wanted. It’s an MVP. Focus on making a few features work extremely well. But most importantly, make sure that you’re learning and improving your skills until the very end. It’s not a competition, although it may feel like one at times. The real winner is the one who learns the most during the process.
 
 Spring peepers out. *Peep peep!*
 
