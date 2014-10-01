@@ -331,9 +331,11 @@ a.pure-button-primary {
 .video {
     border: 5px solid #34495E;
     width: 100%;
-
 }
 
+.vid-fix {
+    margin-top: 1.5%;
+}
 
 .desc {
     float: bottom;
